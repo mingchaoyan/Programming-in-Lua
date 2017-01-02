@@ -1,0 +1,7 @@
+math.randomseed(os.time())
+print(math.pi)
+print(math.exp(1))
+x = math.random()
+print(x)
+print(math.pow(x, 2))
+print(1/math.sqrt(2*math.pi) * math.exp(-1*(math.pow(x, 2))/2))
